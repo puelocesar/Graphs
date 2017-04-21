@@ -8,16 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E92069861CFC20840025DBC8 /* Graphs.h in Headers */ = {isa = PBXBuildFile; fileRef = E92069851CFC20840025DBC8 /* Graphs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E920698D1CFC20840025DBC8 /* Graphs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92069821CFC20840025DBC8 /* Graphs.framework */; };
-		E92069921CFC20840025DBC8 /* GraphsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92069911CFC20840025DBC8 /* GraphsTests.swift */; };
 		E920699D1CFC20D00025DBC8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920699C1CFC20D00025DBC8 /* Graph.swift */; };
 		E9428EEF1D0168F400DBFBD9 /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9428EEE1D0168F400DBFBD9 /* LineGraphView.swift */; };
 		E955F4C91CFE73B6006E9D25 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E955F4C81CFE73B6006E9D25 /* GraphView.swift */; };
 		E96B3C5C1D011DC8006D5FD9 /* BarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96B3C5B1D011DC8006D5FD9 /* BarGraphView.swift */; };
 		E97752211D095676008AB30A /* MultiBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97752201D095676008AB30A /* MultiBarGraphView.swift */; };
 		E984B7B21CFD282700E2C834 /* GraphsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E984B7B11CFD282700E2C834 /* GraphsExtensions.swift */; };
-		E984B7B41CFD303000E2C834 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E984B7B31CFD303000E2C834 /* Nimble.framework */; };
-		E984B7B61CFD303C00E2C834 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E984B7B51CFD303C00E2C834 /* Quick.framework */; };
 		E9AF3B6F1D068A0E00F0B18B /* PieGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF3B6E1D068A0E00F0B18B /* PieGraphView.swift */; };
 		E9E79B191D10FAC60000FEE7 /* Graph.swift in Headers */ = {isa = PBXBuildFile; fileRef = E920699C1CFC20D00025DBC8 /* Graph.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		E9E79B1A1D10FAC60000FEE7 /* GraphView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E955F4C81CFE73B6006E9D25 /* GraphView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,31 +24,16 @@
 		E9E79B1F1D10FAC60000FEE7 /* GraphsExtensions.swift in Headers */ = {isa = PBXBuildFile; fileRef = E984B7B11CFD282700E2C834 /* GraphsExtensions.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E920698E1CFC20840025DBC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E92069791CFC20840025DBC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E92069811CFC20840025DBC8;
-			remoteInfo = Graphs;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		E92069821CFC20840025DBC8 /* Graphs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graphs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92069851CFC20840025DBC8 /* Graphs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graphs.h; sourceTree = "<group>"; };
 		E92069871CFC20840025DBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E920698C1CFC20840025DBC8 /* GraphsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GraphsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E92069911CFC20840025DBC8 /* GraphsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsTests.swift; sourceTree = "<group>"; };
-		E92069931CFC20840025DBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E920699C1CFC20D00025DBC8 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		E9428EEE1D0168F400DBFBD9 /* LineGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
 		E955F4C81CFE73B6006E9D25 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		E96B3C5B1D011DC8006D5FD9 /* BarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphView.swift; sourceTree = "<group>"; };
 		E97752201D095676008AB30A /* MultiBarGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiBarGraphView.swift; sourceTree = "<group>"; };
 		E984B7B11CFD282700E2C834 /* GraphsExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphsExtensions.swift; sourceTree = "<group>"; };
-		E984B7B31CFD303000E2C834 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		E984B7B51CFD303C00E2C834 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		E9AF3B6E1D068A0E00F0B18B /* PieGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,16 +45,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E92069891CFC20840025DBC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E984B7B61CFD303C00E2C834 /* Quick.framework in Frameworks */,
-				E984B7B41CFD303000E2C834 /* Nimble.framework in Frameworks */,
-				E920698D1CFC20840025DBC8 /* Graphs.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				E92069841CFC20840025DBC8 /* Graphs */,
-				E92069901CFC20840025DBC8 /* GraphsTests */,
 				E955F4CA1CFE77D1006E9D25 /* Frameworks */,
 				E92069831CFC20840025DBC8 /* Products */,
 			);
@@ -91,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				E92069821CFC20840025DBC8 /* Graphs.framework */,
-				E920698C1CFC20840025DBC8 /* GraphsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,20 +81,9 @@
 			path = Graphs;
 			sourceTree = "<group>";
 		};
-		E92069901CFC20840025DBC8 /* GraphsTests */ = {
-			isa = PBXGroup;
-			children = (
-				E92069911CFC20840025DBC8 /* GraphsTests.swift */,
-				E92069931CFC20840025DBC8 /* Info.plist */,
-			);
-			path = GraphsTests;
-			sourceTree = "<group>";
-		};
 		E955F4CA1CFE77D1006E9D25 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E984B7B51CFD303C00E2C834 /* Quick.framework */,
-				E984B7B31CFD303000E2C834 /* Nimble.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,24 +127,6 @@
 			productReference = E92069821CFC20840025DBC8 /* Graphs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E920698B1CFC20840025DBC8 /* GraphsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E92069991CFC20840025DBC8 /* Build configuration list for PBXNativeTarget "GraphsTests" */;
-			buildPhases = (
-				E92069881CFC20840025DBC8 /* Sources */,
-				E92069891CFC20840025DBC8 /* Frameworks */,
-				E920698A1CFC20840025DBC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E920698F1CFC20840025DBC8 /* PBXTargetDependency */,
-			);
-			name = GraphsTests;
-			productName = GraphsTests;
-			productReference = E920698C1CFC20840025DBC8 /* GraphsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,14 +134,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Recruit Holdings Co., Ltd.";
 				TargetAttributes = {
 					E92069811CFC20840025DBC8 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					E920698B1CFC20840025DBC8 = {
-						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -218,20 +156,12 @@
 			projectRoot = "";
 			targets = (
 				E92069811CFC20840025DBC8 /* Graphs */,
-				E920698B1CFC20840025DBC8 /* GraphsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E92069801CFC20840025DBC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E920698A1CFC20840025DBC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,23 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E92069881CFC20840025DBC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E92069921CFC20840025DBC8 /* GraphsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E920698F1CFC20840025DBC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E92069811CFC20840025DBC8 /* Graphs */;
-			targetProxy = E920698E1CFC20840025DBC8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E92069941CFC20840025DBC8 /* Debug */ = {
@@ -288,8 +202,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -312,7 +228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,8 +253,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -355,9 +273,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -369,6 +288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -381,6 +301,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -388,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -399,34 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.recruit.mtl.Graphs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		E920699A1CFC20840025DBC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = GraphsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.recruit.mtl.GraphsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		E920699B1CFC20840025DBC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
-				INFOPLIST_FILE = GraphsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.recruit.mtl.GraphsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -447,15 +342,6 @@
 			buildConfigurations = (
 				E92069971CFC20840025DBC8 /* Debug */,
 				E92069981CFC20840025DBC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E92069991CFC20840025DBC8 /* Build configuration list for PBXNativeTarget "GraphsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E920699A1CFC20840025DBC8 /* Debug */,
-				E920699B1CFC20840025DBC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

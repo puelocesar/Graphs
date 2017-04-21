@@ -6,8 +6,6 @@
 //  Copyright © 2016年 Recruit Holdings Co., Ltd. All rights reserved.
 //
 
-import Quick
-import Nimble
 import Foundation
 @testable import Graphs
 
